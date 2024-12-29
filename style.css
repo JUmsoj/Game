@@ -1,0 +1,32 @@
+.flex {
+    width: min-content;
+    display: flex;
+    padding:20px;
+    margin: 20px;
+    background-color: wheat;
+}
+.flex > div {
+    text-align: center;
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: brown;
+}
+.grid {
+    width: min-content;
+    display: grid;
+    grid-template-columns: repeat(4, 10rem);
+    background-color: black;
+    padding: 30px;
+    margin: 20px;
+}
+.grid > div {
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;    
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+}
