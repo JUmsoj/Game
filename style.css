@@ -1,5 +1,5 @@
 .flex {
-    width: min-content;
+    width: max-content;
     display: flex;
     padding:20px;
     margin: 20px;
@@ -29,4 +29,19 @@
     padding: 20px;
     background-color: white;
     text-align: center;
+}
+.code_display {
+    
+    grid-column: span 4;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: min-content;
+}
+.code_display > div {
+   
+    color: white;
+    padding: 20px;
+   
+    background-color: black;
 }

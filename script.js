@@ -1,6 +1,6 @@
 const grid = document.getElementById("Hello");
 const code_history = document.getElementById("code-history");
-const code3 = document.getElementById("type")
+const code3 = document.getElementById("other")
 const enter = document.getElementById("enter")
 const clear = document.getElementById("clear")
 let trys = 0;
