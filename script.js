@@ -27,7 +27,7 @@ function Enter_Code() {
     for(let i = 0; i < actual_code.length; i++) {
       code3.removeChild(code3.firstChild);
     }
-    alert("Wrong, Try Again")
+    alert(`Wrong,the correct code  was ${actual_code} ` );
     sto = true
     setTimeout(function() {
     location.reload()
